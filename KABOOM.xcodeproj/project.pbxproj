@@ -1,0 +1,293 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3739353B1A01B86F001D3E3A /* AppleScriptObjC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3739353A1A01B86F001D3E3A /* AppleScriptObjC.framework */; };
+		373935401A01B86F001D3E3A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3739353F1A01B86F001D3E3A /* main.m */; };
+		373935421A01B86F001D3E3A /* AppDelegate.applescript in Sources */ = {isa = PBXBuildFile; fileRef = 373935411A01B86F001D3E3A /* AppDelegate.applescript */; };
+		373935441A01B86F001D3E3A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 373935431A01B86F001D3E3A /* Images.xcassets */; };
+		373935471A01B86F001D3E3A /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 373935451A01B86F001D3E3A /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		373935371A01B86F001D3E3A /* KABOOM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KABOOM.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3739353A1A01B86F001D3E3A /* AppleScriptObjC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppleScriptObjC.framework; path = System/Library/Frameworks/AppleScriptObjC.framework; sourceTree = SDKROOT; };
+		3739353E1A01B86F001D3E3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3739353F1A01B86F001D3E3A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		373935411A01B86F001D3E3A /* AppDelegate.applescript */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.applescript; path = AppDelegate.applescript; sourceTree = "<group>"; };
+		373935431A01B86F001D3E3A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		373935461A01B86F001D3E3A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		373935341A01B86F001D3E3A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3739353B1A01B86F001D3E3A /* AppleScriptObjC.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3739352E1A01B86F001D3E3A = {
+			isa = PBXGroup;
+			children = (
+				3739353C1A01B86F001D3E3A /* KABOOM */,
+				373935391A01B86F001D3E3A /* Frameworks */,
+				373935381A01B86F001D3E3A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		373935381A01B86F001D3E3A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				373935371A01B86F001D3E3A /* KABOOM.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		373935391A01B86F001D3E3A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3739353A1A01B86F001D3E3A /* AppleScriptObjC.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3739353C1A01B86F001D3E3A /* KABOOM */ = {
+			isa = PBXGroup;
+			children = (
+				373935411A01B86F001D3E3A /* AppDelegate.applescript */,
+				373935431A01B86F001D3E3A /* Images.xcassets */,
+				373935451A01B86F001D3E3A /* MainMenu.xib */,
+				3739353D1A01B86F001D3E3A /* Supporting Files */,
+			);
+			path = KABOOM;
+			sourceTree = "<group>";
+		};
+		3739353D1A01B86F001D3E3A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3739353E1A01B86F001D3E3A /* Info.plist */,
+				3739353F1A01B86F001D3E3A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		373935361A01B86F001D3E3A /* KABOOM */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3739354A1A01B86F001D3E3A /* Build configuration list for PBXNativeTarget "KABOOM" */;
+			buildPhases = (
+				373935331A01B86F001D3E3A /* Sources */,
+				373935341A01B86F001D3E3A /* Frameworks */,
+				373935351A01B86F001D3E3A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KABOOM;
+			productName = KABOOM;
+			productReference = 373935371A01B86F001D3E3A /* KABOOM.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3739352F1A01B86F001D3E3A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = Grzegorz.Leszek;
+				TargetAttributes = {
+					373935361A01B86F001D3E3A = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 373935321A01B86F001D3E3A /* Build configuration list for PBXProject "KABOOM" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3739352E1A01B86F001D3E3A;
+			productRefGroup = 373935381A01B86F001D3E3A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				373935361A01B86F001D3E3A /* KABOOM */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		373935351A01B86F001D3E3A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				373935441A01B86F001D3E3A /* Images.xcassets in Resources */,
+				373935471A01B86F001D3E3A /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		373935331A01B86F001D3E3A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				373935421A01B86F001D3E3A /* AppDelegate.applescript in Sources */,
+				373935401A01B86F001D3E3A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		373935451A01B86F001D3E3A /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				373935461A01B86F001D3E3A /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		373935481A01B86F001D3E3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		373935491A01B86F001D3E3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		3739354B1A01B86F001D3E3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = KABOOM/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3739354C1A01B86F001D3E3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = KABOOM/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		373935321A01B86F001D3E3A /* Build configuration list for PBXProject "KABOOM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				373935481A01B86F001D3E3A /* Debug */,
+				373935491A01B86F001D3E3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3739354A1A01B86F001D3E3A /* Build configuration list for PBXNativeTarget "KABOOM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3739354B1A01B86F001D3E3A /* Debug */,
+				3739354C1A01B86F001D3E3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3739352F1A01B86F001D3E3A /* Project object */;
+}
