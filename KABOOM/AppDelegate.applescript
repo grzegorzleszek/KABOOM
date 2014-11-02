@@ -10,9 +10,21 @@ script AppDelegate
 	property parent : class "NSObject"
 	
 	-- IBOutlets
-	property theWindow : missing value
+    property NSImage : class "NSImage"
+    property NSStatusBar : class "NSStatusBar"
+    property NSStatusItem : class "NSStatusItem"
+    property StatusItem : ""
+    property MainMenu : missing value
 	
 	on applicationWillFinishLaunching_(aNotification)
+        set StatusItem to NSStatusBar's systemStatusBar's statusItemWithLength_(-2)
+        StatusItem's setImage_(NSImage's imageNamed_("MenuIcon"))
+        StatusItem's setMenu_(MainMenu)
+        StatusItem's setHighlightMode_(true)
+	end applicationWillFinishLaunching_
+    
+    on nukeXcodeAction_(object)
+        
         -- remove DerivedData
         
         do shell script "rm -r -- ~/Library/Developer/Xcode/DerivedData/*"
@@ -37,7 +49,8 @@ script AppDelegate
                 end tell
             end tell
         end tell
-	end applicationWillFinishLaunching_
+        
+    end nukeXcodeAction
 	
 	on applicationShouldTerminate_(sender)
 		-- Insert code here to do any housekeeping before your application quits 
