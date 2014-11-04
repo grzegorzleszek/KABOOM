@@ -27,7 +27,20 @@ script AppDelegate
         
         -- remove DerivedData
         
-        do shell script "rm -r -- ~/Library/Developer/Xcode/DerivedData/*"
+        do shell script "rm -rf ~/Library/Developer/Xcode/DerivedData/"
+        
+        -- clean build
+        
+        tell application "Xcode"
+            activate
+        end tell
+        
+        tell application "System Events"
+            tell application process "Xcode"
+                click menu item "Clean" of menu 1 of menu bar item "Product" of menu bar 1
+                
+            end tell
+        end tell
         
         -- restart simulator
         
